@@ -13,7 +13,6 @@
     "blocklet.md",
     "blocklet.js",
     "blocklet.yml",
-    "blocklet.json",
     "README.md"
   ],
   "version": "1.10.0",
