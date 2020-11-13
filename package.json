@@ -101,7 +101,7 @@
     "lint": "eslint src api",
     "precommit": "yarn lint",
     "prepush": "yarn lint",
-    "clean": "rm -rf build api/dist",
+    "clean": "rm -rf build api/dist .blocklet blocklet.js",
     "start": "npm-run-all --parallel start:*",
     "start:client": "PUBLIC_URL=\"\" react-scripts start",
     "start:server": "nodemon api/index.js -w api",
