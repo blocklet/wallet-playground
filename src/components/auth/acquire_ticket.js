@@ -10,15 +10,11 @@ import api from '../../libs/api';
 
 export default function AcquireMovieTicket({ count }) {
   const [isOpen, setOpen] = useToggle(false);
+  const webWalletUrl = window.localStorage.getItem('web_wallet_url');
 
   return (
     <React.Fragment>
-      <Button
-        color="secondary"
-        variant="contained"
-        size="large"
-        className="action"
-        onClick={() => setOpen(true)}>
+      <Button color="secondary" variant="contained" size="large" className="action" onClick={() => setOpen(true)}>
         Acquire {count} movie {count <= 1 ? 'ticket' : 'tickets'}
       </Button>
       {isOpen && (
@@ -38,6 +34,7 @@ export default function AcquireMovieTicket({ count }) {
           extraParams={{
             count,
           }}
+          webWalletUrl={webWalletUrl}
         />
       )}
     </React.Fragment>

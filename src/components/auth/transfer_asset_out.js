@@ -9,14 +9,11 @@ import api from '../../libs/api';
 
 export default function TransferTokenOut() {
   const [isOpen, setOpen] = useToggle(false);
+  const webWalletUrl = window.localStorage.getItem('web_wallet_url');
+
   return (
     <React.Fragment>
-      <Button
-        color="secondary"
-        variant="contained"
-        size="large"
-        className="action"
-        onClick={() => setOpen(true)}>
+      <Button color="secondary" variant="contained" size="large" className="action" onClick={() => setOpen(true)}>
         Send 1 Asset to Application
       </Button>
       {isOpen && (
@@ -33,6 +30,7 @@ export default function TransferTokenOut() {
             confirm: 'Confirm on your ABT Wallet',
             success: 'Asset transfer sent!',
           }}
+          webWalletUrl={webWalletUrl}
         />
       )}
     </React.Fragment>
