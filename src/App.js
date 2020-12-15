@@ -17,7 +17,7 @@ import theme from './libs/theme';
 
 const GlobalStyle = createGlobalStyle`
   a {
-    color: ${props => props.theme.colors.green};
+    color: ${(props) => props.theme.colors.green};
     text-decoration: none;
   }
   a:hover,
@@ -32,11 +32,12 @@ if (window.blocklet && window.blocklet.prefix) {
 } else if (window.env && window.env.apiPrefix) {
   apiPrefix = window.env.apiPrefix;
 }
+const webWalletUrl = window.localStorage.getItem('web_wallet_url');
 
 export const App = () => (
   <MuiThemeProvider theme={theme}>
     <ThemeProvider theme={theme}>
-      <SessionProvider serviceHost={apiPrefix} autoLogin>
+      <SessionProvider serviceHost={apiPrefix} autoLogin webWalletUrl={webWalletUrl}>
         {({ session }) => {
           if (session.loading) {
             return <CircularProgress />;
