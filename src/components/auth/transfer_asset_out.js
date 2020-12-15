@@ -6,10 +6,11 @@ import Auth from '@arcblock/did-react/lib/Auth';
 import Button from '@arcblock/ux/lib/Button';
 
 import api from '../../libs/api';
+import getWebWalletUrl from '../../libs/util';
 
 export default function TransferTokenOut() {
   const [isOpen, setOpen] = useToggle(false);
-  const webWalletUrl = window.localStorage.getItem('web_wallet_url');
+  const webWalletUrl = getWebWalletUrl();
 
   return (
     <React.Fragment>

@@ -6,6 +6,7 @@ import Button from '@arcblock/ux/lib/Button';
 
 import Alert from '../alert';
 import api from '../../libs/api';
+import getWebWalletUrl from '../../libs/util';
 
 // eslint-disable-next-line object-curly-newline
 export default function GeneralAuthButton({ button, action, messages, timeout, extraParams }) {
@@ -17,7 +18,7 @@ export default function GeneralAuthButton({ button, action, messages, timeout, e
     setComplete(false);
   };
 
-  const webWalletUrl = window.localStorage.getItem('web_wallet_url');
+  const webWalletUrl = getWebWalletUrl();
 
   return (
     <React.Fragment>

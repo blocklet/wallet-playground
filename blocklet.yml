@@ -39,7 +39,7 @@ environments:
     required: true
     default: 'https://playground.network.arcblockio.cn/api'
     secure: false
-- name: FOREIGN_CHAIN_ID
+  - name: FOREIGN_CHAIN_ID
     description: Please provide id of foreign chain
     required: true
     default: zinc-2019-05-17

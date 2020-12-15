@@ -14,6 +14,7 @@ import OrdersPage from './pages/orders';
 import MiniPage from './pages/index';
 
 import theme from './libs/theme';
+import getWebWalletUrl from './libs/util';
 
 const GlobalStyle = createGlobalStyle`
   a {
@@ -32,7 +33,7 @@ if (window.blocklet && window.blocklet.prefix) {
 } else if (window.env && window.env.apiPrefix) {
   apiPrefix = window.env.apiPrefix;
 }
-const webWalletUrl = window.localStorage.getItem('web_wallet_url');
+const webWalletUrl = getWebWalletUrl();
 
 export const App = () => (
   <MuiThemeProvider theme={theme}>

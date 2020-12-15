@@ -6,12 +6,13 @@ import Auth from '@arcblock/did-react/lib/Auth';
 import Button from '@arcblock/ux/lib/Button';
 
 import api from '../../../libs/api';
+import getWebWalletUrl from '../../../libs/util';
 
 export default function AuthPrincipal() {
   const [isOpen, setOpen] = useToggle(false);
   const [error, setError] = useState('');
   const [authorizeId, setAuthorizeId] = useState(null);
-  const webWalletUrl = window.localStorage.getItem('web_wallet_url');
+  const webWalletUrl = getWebWalletUrl();
 
   const fetchAuthorization = async () => {
     const { data } = await api.get('/api/authorizations');
