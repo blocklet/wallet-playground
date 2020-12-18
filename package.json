@@ -36,7 +36,7 @@
     "@arcblock/did-agent-storage-nedb": "^1.4.8",
     "@arcblock/did-auth": "^1.4.8",
     "@arcblock/did-auth-storage-nedb": "^1.4.8",
-    "@arcblock/did-playground": "^1.9.1",
+    "@arcblock/did-playground": "^1.10.0",
     "@arcblock/did-react": "^0.78.23",
     "@arcblock/did-util": "^1.4.8",
     "@arcblock/event-client": "^1.4.8",

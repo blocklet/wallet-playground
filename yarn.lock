@@ -71,14 +71,14 @@
     json-stable-stringify "^1.0.1"
     lodash.get "^4.4.2"
 
-"@arcblock/did-playground@^1.9.1":
-  version "1.9.1"
-  resolved "https://registry.yarnpkg.com/@arcblock/did-playground/-/did-playground-1.9.1.tgz#5f56a41c73b3698f6a38256d3b57f94345bd1b1c"
-  integrity sha512-PhIwa9otcG/tmSpW0sYVzdRdwjtf7TE4ySv6DnFTVntd7MjxKdXqbA7+Uok+Ztz+mngkZWbFM39wey3yOOhEew==
+"@arcblock/did-playground@^1.10.0":
+  version "1.10.0"
+  resolved "https://registry.yarnpkg.com/@arcblock/did-playground/-/did-playground-1.10.0.tgz#5de992666a75495329b17ba99992ad4a765fe196"
+  integrity sha512-RXV3K8ZZd6GjgnILL5vmx47YRvT75joxrb1+r4MNWI+orpv6pDF/cNv7Jy1dj8E00U9O9Te2XUVgu1qq25cwrQ==
   dependencies:
-    "@arcblock/did-react" "^0.78.14"
-    "@arcblock/react-hooks" "^0.78.0"
-    "@arcblock/ux" "^0.78.14"
+    "@arcblock/did-react" "^0.78.23"
+    "@arcblock/react-hooks" "^0.78.23"
+    "@arcblock/ux" "^0.78.23"
     "@material-ui/core" "^4.11.0"
     axios "^0.19.2"
     core-js "^3.6.4"
@@ -86,7 +86,7 @@
     react-use "^13.27.0"
     styled-components "^5.0.1"
 
-"@arcblock/did-react@^0.78.14", "@arcblock/did-react@^0.78.23":
+"@arcblock/did-react@^0.78.23":
   version "0.78.23"
   resolved "https://registry.yarnpkg.com/@arcblock/did-react/-/did-react-0.78.23.tgz#49891674460558479568bf0eff65aa59bac4b32d"
   integrity sha512-b6CFrhZGpJ4iMnz/3HyhxItjw0maiFbg72yF5+MXziC/KMlTQ+59y8QXNB8pBrb28JRa5/2asW5wthB11qrT/Q==
@@ -272,7 +272,7 @@
     lodash "^4.17.15"
     pako "^1.0.11"
 
-"@arcblock/react-hooks@^0.78.0", "@arcblock/react-hooks@^0.78.23":
+"@arcblock/react-hooks@^0.78.23":
   version "0.78.23"
   resolved "https://registry.yarnpkg.com/@arcblock/react-hooks/-/react-hooks-0.78.23.tgz#14e7d9c85508235455b57f34dbe9ddb88edc2908"
   integrity sha512-Dhf4lEd/RDwdAX2BMiEikNObY+OhcYLY/nrfUC0KJXoymoMGVOWmq8RwqrniUEHgNdGyfDKsZ4Uq7NfbB0ADPg==
@@ -324,7 +324,7 @@
     "@arcblock/forge-sdk" "^1.4.8"
     debug "^4.1.1"
 
-"@arcblock/ux@^0.78.14", "@arcblock/ux@^0.78.23":
+"@arcblock/ux@^0.78.23":
   version "0.78.23"
   resolved "https://registry.yarnpkg.com/@arcblock/ux/-/ux-0.78.23.tgz#b78a8ccd8421b51716e561a69dd4333dfcce1d8a"
   integrity sha512-1/snRlY5LlgKL6rqbfHR+xZ/NI49jxuDxULOo8caEFMmo2OgrTAI6W00f64m/Rm5i1R9S4gsGmNNjZ2cAQHYIQ==
