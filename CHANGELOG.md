@@ -1,3 +1,7 @@
+## 1.11.8 (十二月 23, 2020)
+
+- fix: bump package lib to latest
+
 ## 1.11.7 (十二月 21, 2020)
 
 - fix: .eslint
