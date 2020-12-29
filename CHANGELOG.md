@@ -1,3 +1,11 @@
+## 1.11.10 (December 28, 2020)
+
+- fix github actions error when build client
+
+## 1.11.9 (December 28, 2020)
+
+- fix style missing when alert show up
+
 ## 1.11.8 (December 24, 2020)
 
 - update forge related lib version
