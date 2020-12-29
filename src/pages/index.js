@@ -121,7 +121,7 @@ export default function MiniPage() {
 
 const Main = styled.main`
   a {
-    color: ${(props) => props.theme.colors.green};
+    color: ${props => props.theme.colors.green};
     text-decoration: none;
   }
 
@@ -149,7 +149,7 @@ const Main = styled.main`
         margin-bottom: 16px;
         margin-right: 32px;
         max-width: 360px;
-        @media (max-width: ${(props) => props.theme.breakpoints.values.sm}px) {
+        @media (max-width: ${props => props.theme.breakpoints.values.sm}px) {
           margin-right: 0;
         }
         width: 100%;
