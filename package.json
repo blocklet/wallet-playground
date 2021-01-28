@@ -68,7 +68,6 @@
     "dotenv": "^8.0.0",
     "dsbridge": "^3.1.4",
     "express": "^4.17.1",
-    "express-bearer-token": "^2.4.0",
     "express-history-api-fallback": "^2.2.1",
     "file-stream-rotator": "^0.5.7",
     "http-proxy-middleware": "^0.19.1",
@@ -107,7 +106,6 @@
     "start:server": "nodemon api/index.js -w api",
     "build": "yarn clean && npm-run-all build:*",
     "build:client": "react-scripts build && rm -f build/**/**/*.{js,css}.map",
-    "build:server": "NODE_ENV=production netlify-lambda build api/functions --config api/webpack.functions.js",
     "bundle": "yarn clean && npm run bundle:client && npm run bundle:server",
     "bundle:client": "PUBLIC_URL=\"/z8iZpn7gP9WJNUonEMq7zAoCbv4fMMqX8JasV\" REACT_APP_API_PREFIX=\"\" REACT_APP_APP_NAME=\"Wallet Playground\" yarn build:client",
     "bundle:server": "blocklet bundle -w api/webpack.blocklet.js --create-release",
@@ -146,7 +144,6 @@
     "eslint-plugin-react": "^7.21.5",
     "jest": "^24.1.0",
     "lerna": "^3.20.2",
-    "netlify-lambda": "^1.4.13",
     "nodemon": "^1.19.1",
     "npm-run-all": "^4.1.5"
   },

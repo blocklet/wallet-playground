@@ -62,9 +62,14 @@ interfaces:
     prefix: '*'
     port: BLOCKLET_PORT
     protocol: tcp
+    services:
+      - name: "@abtnode/auth-service"
+        config:
+          ignoreUrls:
+            - /api/did/**
 timeout:
   start: 15
 requirements:
-  abtnode: '>=1.1.0'
+  abtnode: '>=1.1.17'
   os: '*'
   cpu: '*'
