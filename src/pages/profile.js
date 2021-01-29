@@ -21,13 +21,13 @@ export default function ProfilePage() {
   const history = useHistory();
   const { session } = useContext(UserContext);
 
+  const { user, token } = session;
+
   const onLogout = () => {
-    document.cookie = 'login_token=; max-age=0';
+    session.logout();
     history.push('/');
     window.location.reload();
   };
-
-  const { user, token } = session;
 
   return (
     <Layout title="Profile">

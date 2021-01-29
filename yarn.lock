@@ -71,14 +71,14 @@
     json-stable-stringify "^1.0.1"
     lodash.get "^4.4.2"
 
-"@arcblock/did-playground@^1.10.2":
-  version "1.10.2"
-  resolved "https://registry.yarnpkg.com/@arcblock/did-playground/-/did-playground-1.10.2.tgz#56608ee84519b5408ce449dac7107dcb0fef1ead"
-  integrity sha512-mboE18a3y8VShl3XjISzxUksR0Mn1QnfDuNmAG9vEiNaF97n09bils703cvaESRi/jBfo1VEdL23Il5MFLSYQA==
+"@arcblock/did-playground@^1.11.0":
+  version "1.11.0"
+  resolved "https://registry.yarnpkg.com/@arcblock/did-playground/-/did-playground-1.11.0.tgz#71f973cf0d74291f9a59d0f886209aed40affca1"
+  integrity sha512-ty7tpMWSPATppN3U4B1fEgUbKwGNG8REMlmrtIro26MARzSeBOxz583bg518dMLEFT/OTKFERkhnVth912BhnQ==
   dependencies:
-    "@arcblock/did-react" "^0.78.26"
-    "@arcblock/react-hooks" "^0.78.26"
-    "@arcblock/ux" "^0.78.26"
+    "@arcblock/did-react" "^1.11.0"
+    "@arcblock/react-hooks" "^1.11.0"
+    "@arcblock/ux" "^1.11.0"
     "@material-ui/core" "^4.11.0"
     axios "^0.19.2"
     core-js "^3.6.4"
@@ -94,6 +94,24 @@
     "@arcblock/event-client" "^1.0.23"
     "@arcblock/react-hooks" "^0.78.26"
     "@arcblock/ux" "^0.78.26"
+    "@material-ui/core" "^4.10.1"
+    axios "^0.19.2"
+    core-js "^3.6.4"
+    dsbridge "3.1.4"
+    js-cookie "^2.2.1"
+    qrcode.react "^1.0.0"
+    react-load-script "^0.0.6"
+    react-use "^13.22.4"
+    styled-components "^5.0.0"
+
+"@arcblock/did-react@^1.11.0":
+  version "1.11.0"
+  resolved "https://registry.yarnpkg.com/@arcblock/did-react/-/did-react-1.11.0.tgz#6f2dbc0880780e8d0a78ef6b273364c8dca64ffe"
+  integrity sha512-nVSY/CQ0t2aAAeiFWQjbXgG2uLvnTNDh2MCJgZiv0JEJmrBFLDwlcxf8cf7wBsZZdPwpL5qZw5X/m/Qqc0UVUQ==
+  dependencies:
+    "@arcblock/event-client" "^1.0.23"
+    "@arcblock/react-hooks" "^1.11.0"
+    "@arcblock/ux" "^1.11.0"
     "@material-ui/core" "^4.10.1"
     axios "^0.19.2"
     core-js "^3.6.4"
@@ -293,6 +311,15 @@
     event-target-shim "^5.0.1"
     ismobilejs "^1.0.3"
 
+"@arcblock/react-hooks@^1.11.0":
+  version "1.11.0"
+  resolved "https://registry.yarnpkg.com/@arcblock/react-hooks/-/react-hooks-1.11.0.tgz#b02e665982f11ba3461ac5ce2bdae7a566faca6f"
+  integrity sha512-M3WZEGUd0d9M9Qfd615Ty4dU9ohrFrEaODHVu3mEApeeW0rtv0piq7ZB5U6Ym4i27ie459erlBbp8pVJyZ5mTg==
+  dependencies:
+    core-js "^3.6.4"
+    event-target-shim "^5.0.1"
+    ismobilejs "^1.0.3"
+
 "@arcblock/sdk-util@^0.29.1":
   version "0.29.1"
   resolved "https://registry.yarnpkg.com/@arcblock/sdk-util/-/sdk-util-0.29.1.tgz#f422c6dc65fe4922d83555d6ed1b806f324eda0f"
@@ -342,6 +369,41 @@
   integrity sha512-DW6GmnD40jmA6MXL8hiUMMD4TLbWMAYuKSQIGYUyjW7s64WV/Z9uWfCdhJ1qYJLwj2qTYunOYJiQIQre6r01kg==
   dependencies:
     "@arcblock/react-hooks" "^0.78.26"
+    "@babel/plugin-syntax-dynamic-import" "^7.8.3"
+    "@material-ui/core" "^4.10.1"
+    "@material-ui/icons" "4.5.1"
+    axios "^0.19.2"
+    copy-to-clipboard "^3.2.0"
+    core-js "^3.6.4"
+    d3-geo "^1.11.6"
+    devices.css "^0.1.15"
+    graphiql "^0.13.2"
+    graphiql-code-exporter "^2.0.5"
+    graphiql-explorer "^0.4.3"
+    graphql "^14.6.0"
+    highlight.js "^9.15.8"
+    js-cookie "^2.2.0"
+    lodash "^4.17.15"
+    react-helmet "^5.2.1"
+    react-image "^4.0.3"
+    react-load-script "^0.0.6"
+    react-player "^1.15.2"
+    react-router-dom "^5.1.2"
+    react-use "^13.22.4"
+    rebound "^0.1.0"
+    styled-components "^5.0.0"
+    topojson-client "^3.0.0"
+    versor "^0.0.4"
+    xterm "4.1.0"
+    xterm-addon-fit "^0.2.1"
+    xterm-addon-web-links "^0.2.1"
+
+"@arcblock/ux@^1.11.0":
+  version "1.11.0"
+  resolved "https://registry.yarnpkg.com/@arcblock/ux/-/ux-1.11.0.tgz#ce4f68de8284f7e8686cc8704f44e1b07c5efb76"
+  integrity sha512-HuBA8UmjIo6+MvMydMdpGshjrixU97GlWgOY7/0KF3tsUwacEz64FsyNmGMYexAN35dIkAmFpta0ZcogKdeiTw==
+  dependencies:
+    "@arcblock/react-hooks" "^1.11.0"
     "@babel/plugin-syntax-dynamic-import" "^7.8.3"
     "@material-ui/core" "^4.10.1"
     "@material-ui/icons" "4.5.1"

@@ -5,6 +5,7 @@ import styled from 'styled-components';
 import Typography from '@material-ui/core/Typography';
 import Tag from '@arcblock/ux/lib/Tag';
 import { PlaygroundAction } from '@arcblock/did-playground';
+import WalletDownload from '@arcblock/ux/lib/Wallet/Download';
 
 import { UserContext } from '../context/user';
 import Layout from '../components/layout';
@@ -115,6 +116,11 @@ export default function MiniPage() {
             />
           </div>
         </section>
+
+        {/* hack fix: button will have high level MuiButtonBase-root style without the following code */}
+        <div style={{ display: 'none' }}>
+          <WalletDownload />
+        </div>
       </Main>
     </Layout>
   );

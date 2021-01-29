@@ -41,7 +41,7 @@ const webWalletUrl = getWebWalletUrl();
 export const App = () => (
   <MuiThemeProvider theme={theme}>
     <ThemeProvider theme={theme}>
-      <SessionProvider serviceHost={apiPrefix} webWalletUrl={webWalletUrl} prefix="/.service/@abtnode/auth-service/api/did">
+      <SessionProvider serviceHost={apiPrefix} webWalletUrl={webWalletUrl}>
         {({ session }) => {
           if (session.loading) {
             return <CircularProgress />;
