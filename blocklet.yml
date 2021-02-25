@@ -67,6 +67,7 @@ interfaces:
         config:
           ignoreUrls:
             - /api/did/**
+            - /api/agent/**
 timeout:
   start: 15
 requirements:
