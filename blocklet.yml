@@ -8,7 +8,7 @@ files:
   - blocklet.md
   - README.md
   - build
-version: 1.14.0
+version: 1.14.1
 author:
   name: wangshijun
   email: shijun@arcblock.io
@@ -74,3 +74,4 @@ requirements:
   abtnode: '>=1.1.17'
   os: '*'
   cpu: '*'
+children: []
