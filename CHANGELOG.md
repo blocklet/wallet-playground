@@ -1,3 +1,7 @@
+## 1.14.1 (March 22, 2021)
+
+- update the prefix of static resource url
+
 ## 1.14.0 (March 01, 2021)
 
 - hide atomic swap use case
