@@ -1,3 +1,7 @@
+## 1.14.4 (March 23, 2021)
+
+- fix: static resource url
+
 ## 1.14.3 (March 23, 2021)
 
 - update the prefix of static resource url
