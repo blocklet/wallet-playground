@@ -2,6 +2,8 @@
 
 ABT Wallet Playground Blocklet
 
+**This Blocklet is deprecated, please checkout [OCAP Playground](https://github.com/blocklet/ocap-playground)**
+
 ## Install on my ABT Node
 
 [![Install on my ABT Node](https://raw.githubusercontent.com/blocklet/development-guide/main/assets/install_on_abtnode.svg)](https://install.arcblock.io/?action=blocklet-install&meta_url=https%3A%2F%2Fgithub.com%2Fblocklet%2Fwallet-playground%2Freleases%2Fdownload%2F1.14.4%2Fblocklet.json)
